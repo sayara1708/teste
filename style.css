@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+  
+}
+
+/*IMAGEM DE FUNDO DE TODAS AS PAGINAS */
+section   {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: url(img/imagemfundo.jpg) no-repeat center;
+    background-size: cover; 
+    opacity: 0.4;
+    z-index: 1;
+
+}
+   
+
+/*MENU DE ACESSO*/
+nav{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 45px;
+    box-sizing: border-box;
+    background: rgba(0,0,0, 0.6);
+    border-bottom:  1px solid #fff;
+    z-index: 2;
+   
+
+
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    display: flex;
+      
+}
+
+nav ul li a{
+    line-height: 5rem;
+    color: bisque;
+    padding: 1rem 1rem;
+    font-size: 15px;
+    font-weight: bold;
+   
+    
+}
+
+nav ul li a:hover{
+    background: rgb(70, 70, 196);
+    border-radius: 5px;
+    
+}
+.container-apresentação{
+    font-size: 1.5rem;
+    float: left;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap:1rem;
+    position: absolute;
+    z-index: 2;
+   
+
+}
+
+.imagem-perfil{
+    margin: 1rem ;
+    max-width: 100%;
+    width: 14rem;
+    margin-left: 5px;
+   
+    
+    
+}
+
+.perfil{
+
+    text-align: justify;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    z-index: 2;
+    margin-right: 1rem;
+    
+
+}
+
+
+/*FORMULARIO DE CONTATO PARA RECEBIMENTO DE MENSAGEM*/
+form{
+    position: relative;
+    width: 40%;
+    height: 10rem;
+    z-index: 5;
+    float: right; 
+    display: grid;
+    margin: 2rem;   
+}
+
+
+.contato{
+   
+    width: 60%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 7% 60%;
+    gap: 1rem;
+    align-items: center;
+    z-index: 2;
+    font-weight: bold;
+    margin:2rem;
+    float: right;
+    z-index: 2;
+   
+
+}
+/*PAGINA DE CONTATO*/
+h1{
+    margin: 10rem 1rem 0 1rem;
+    text-align:  center;
+
+    
+}
+
+.imagem-contato{
+    
+    max-width: 100%;
+    width: 4rem;
+    float: left;
+    
+    
+}
+
+input {
+    width: 30%;
+    
+}
+
+input[type=text]
+{
+    height: 100px;
+    width: 20rem;
+    
+}
+
+.formulario h1{
+    margin: 2rem;
+    padding: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+button{
+    
+    background-color:rgb(116, 116, 221) ;
+    border: none;
+    width: 100px;
+    height: 30px;
+   margin: 1rem 0;
+}
+
+
+
+.container-experiencias{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    float: left;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    
+}
+.imagem-experiencias{
+    margin: 1rem 0;
+    max-width: 100%;
+    width: 20rem;
+    margin-left: 5px;
+}
+.container-formação{
+    font-size: 1.5rem;
+    margin: 1rem;
+    float: left;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    position: absolute;
+    z-index: 2;
+}
+
+.imagem-formação{
+    max-width: 100%;
+    width: 40rem;
+    margin-left: 5px;
+}
